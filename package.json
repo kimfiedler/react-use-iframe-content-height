@@ -1,6 +1,6 @@
 {
   "name": "react-use-iframe-content-height",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "source": "src/index.tsx",
@@ -10,6 +10,12 @@
     "dev": "microbundle watch --jsx react",
     "prepublishOnly": "yarn build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimfiedler/react-use-iframe-content-height.git"
+  },
+  "homepage": "https://github.com/kimfiedler/react-use-iframe-content-height",
+  "author": "Kim Fiedler Vestergaard",
   "files": [
     "dist"
   ],

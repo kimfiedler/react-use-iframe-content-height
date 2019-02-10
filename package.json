@@ -1,0 +1,28 @@
+{
+  "name": "react-use-iframe-content-height",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle --jsx react",
+    "dev": "microbundle watch --jsx react",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "microbundle": "^0.9.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "typescript": "^3.3.3"
+  }
+}
